@@ -7,7 +7,7 @@ const colors = require('colors')
 
 // ---------------------------------------------- VARS
 
-const auth_data_dir = process.argv[1] || './auth_data'
+const auth_data_dir = process.argv[2] || './auth_data'
 const key_data_storage = new Storage(auth_data_dir+'/manager_data')
 const fastauth = new FastAuth(auth_data_dir)
 
