@@ -1,0 +1,23 @@
+{
+  "name": "fast_api_manager",
+  "description": "Manager for auto_api auth using fast_auth",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests yet\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugodecasta/fast_api_manager.git"
+  },
+  "author": "hugo castaneda",
+  "dependencies": {
+    "clipboard-copy": "^3.1.0",
+    "colors": "^1.4.0",
+    "copy-to-clipboard": "^3.2.1",
+    "fast_auth": "git+https://github.com/hugodecasta/fast_auth.git",
+    "inquirer": "^7.0.4",
+    "readline-sync": "^1.4.10",
+    "storage": "git+https://github.com/hugodecasta/storage.git"
+  }
+}
