@@ -41,6 +41,8 @@ The prompter uses a multi-layer management system. It allows you to access these
         - execute a "pay api" procedure
         - revoke the roken (delete it)
         
+At each stage, one can use the `> help` command to see all current commands
+        
 ### examples
 
 In order to be demonstrative, here is some common use cases of the manage:
